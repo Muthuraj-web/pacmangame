@@ -9,9 +9,9 @@ Blocks and food will be set randomly using Math.random()
 DisjointSetUnion data structure is used to ensure there is no food cell packed within block cells so that pacman can eat all foods
 
 DSU ensures they below configuration doesnot happens
-1 1 1 1
-1 0 0 1
-1 1 1 1
+row 1) 1 1 1 1
+row 2) 1 0 0 1
+row 3) 1 1 1 1
 
 Floydwarshall's All source shortest path was used to give villains the intelligence to choose the next step in order to catch the pacman efficiently
 
